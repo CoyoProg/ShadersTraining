@@ -34,7 +34,8 @@ void Scene_025_ComputeShaderBoids::handleEvent(const InputState &inputState) {
 
 }
 
-void Scene_025_ComputeShaderBoids::load() {
+void Scene_025_ComputeShaderBoids::load() 
+{
     Assets::loadComputeShader(SHADER_COMP(SHADER_NAME), SHADER_ID(SHADER_NAME));
     Assets::loadShader(SHADER_VERT(SHADER_NAME), SHADER_FRAG(SHADER_NAME), "", "", "", SHADER_ID(SHADER_NAME));
 

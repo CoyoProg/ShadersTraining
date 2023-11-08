@@ -43,4 +43,5 @@
  * Scene_008_SpinningCubes
  * Scene_007_SpinningCube
  * Scene_006_Fragment
+ * MyScene_Shaders
  *  * */
