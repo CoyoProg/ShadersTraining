@@ -43,24 +43,22 @@ void MyScene::load()
 	static const Vector3 geometry[] =
 	{
 		// Positions
-		Vector3(-5.0f, 1.0f, 0.0f),
-		Vector3(-1.0f, 1.5f, 0.0f),
-		Vector3(-1.0f, 1.5f, 7.0f),
-		Vector3(0.0f, 0.0f, 0.0f),
-		Vector3(0.0f, 0.0f, 10.0f),
-		Vector3(1.0f, 1.5f, 0.0f),
-		Vector3(1.0f, 1.5f, 7.0f),
-		Vector3(5.0f, 1.0f, 0.0f),
+		Vector3(-0.5f, -0.5f, -0.5f),
+		Vector3(0.5f, -0.5f, -0.5f),
+		Vector3(0.5f, 0.5f, -0.5f),
+		Vector3(-0.5f, 0.5f, -0.5f),
+		Vector3(-0.5f, -0.5f, 0.5f),
+		Vector3(0.5f, -0.5f, 0.5f),
+		Vector3(0.5f, 0.5f, 0.5f),
+		Vector3(-0.5f, 0.5f, 0.5f),
 
 		// Normals
-		Vector3(0.0f, 0.0f, 0.0f),
-		Vector3(0.0f, 0.0f, 0.0f),
-		Vector3(0.107f, -0.859f, 0.00f),
-		Vector3(0.832f, 0.554f, 0.00f),
-		Vector3(-0.59f, -0.395f, 0.00f),
-		Vector3(-0.832f, 0.554f, 0.00f),
-		Vector3(0.295f, -0.196f, 0.00f),
-		Vector3(0.124f, 0.992f, 0.00f),
+		Vector3(0.0f, 0.0f, -1.0f),
+		Vector3(0.0f, 0.0f, 1.0f),
+		Vector3(0.0f, -1.0f, 0.0f),
+		Vector3(0.0f, 1.0f, 0.0f),
+		Vector3(-1.0f, 0.0f, 0.0f),
+		Vector3(1.0f, 0.0f, 0.0f),
 	};
 
 	computeShader = Assets::getComputeShader(SHADER_ID(SHADER_NAME));
